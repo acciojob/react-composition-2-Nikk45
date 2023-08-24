@@ -21,9 +21,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <button onClick={()=>setShow(true)}>Show Modal</button>
-        <div className="model">
-          <Modal show={show} onClose={onClose}/>
-        </div>
+        <Modal show={show} onClose={onClose}/>
     </div>
   )
 }
