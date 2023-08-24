@@ -11,6 +11,12 @@ const App = () => {
     setShow(false)
   }
 
+
+  console.log(document);
+  document.body.addEventListener('click', ()=>{
+    onClose();
+  })
+
   return (
     <div>
         {/* Do not remove the main div */}
