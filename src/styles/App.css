@@ -1,1 +1,6 @@
-
+.model-overlay{
+    width: fit-content;
+    margin: 10px 20px;
+    border: 1px solid tomato;
+    padding: 10px;
+}
