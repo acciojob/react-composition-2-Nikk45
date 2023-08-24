@@ -11,8 +11,8 @@ const App = () => {
     setShow(false)
   }
 
-
   console.log(document);
+
   document.body.addEventListener('click', ()=>{
     onClose();
   })
